@@ -104,8 +104,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "김상재(Sang-jae Kim)"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "김상재\n(Sang-jae Kim)"
+  avatar           : "/assets/ksjksj.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "for archiving what I experience and study"
   location         : "Seoul, South Korea"
   email            : "4ppreciator@gmail.com"
