@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/ksjksj.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "for archiving what I experience and study"
   location         : "Seoul, South Korea"
-  email            : "4ppreciator@gmail.com"
+  #email            : "4ppreciator@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
