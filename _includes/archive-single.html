@@ -25,7 +25,7 @@
       {% endif %}
     </h2>
     
-    //추가한 내용 (카테고리, 날짜 코드 넣기)
+    <!--추가한 내용 (카테고리, 날짜 코드 넣기) -->
     {% if post.categories[0] != null %}
 		 <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%m/%d/%Y" }} &nbsp; <i class="far fa-folder-open"></i> {{ post.categories }}</p>
 	  {% else %}
