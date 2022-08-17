@@ -27,9 +27,9 @@
     
     <!--추가한 내용 (카테고리, 날짜 코드 넣기) -->
     {% if post.categories[0] != null %}
-		 <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%YYYY년 %MM월 %DD일" }} &nbsp; <i class="far fa-folder-open"></i> {{ post.categories }}</p>
+		 <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%Y년 %m월 %dd일" }} &nbsp; <i class="far fa-folder-open"></i> {{ post.categories }}</p>
 	  {% else %}
-		 <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%Y년 %mm월 %dd일" }}
+		 <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%Y년 %m월 %dd일" }}
 	  {% endif %}
     
     {% include page__meta.html type=include.type %}
